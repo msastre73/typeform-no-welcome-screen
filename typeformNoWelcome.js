@@ -1,3 +1,4 @@
+console.log("Typeform loaded");
 window.tf = (function () {
   "use strict";
   var e = {
@@ -1406,7 +1407,6 @@ window.tf = (function () {
           u = n(2256),
           c = n(7144);
         t.createIframe = function (e, t, n) {
-            console.log("Options ->",  n);
             var d = i.generateEmbedId(),
             s = o.buildIframeSrc({
               formId: e,
