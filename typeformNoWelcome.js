@@ -1271,7 +1271,6 @@ window.tf = (function () {
             l = (function (e, t, n) {
               var r = u.getTransitiveSearchParams(n.transitiveSearchParams),
                 i = {
-                  "typeform-welcome": 0,
                   "typeform-embed-id": t,
                   "typeform-embed": c[e],
                   "typeform-source": n.source,
@@ -1407,7 +1406,8 @@ window.tf = (function () {
           u = n(2256),
           c = n(7144);
         t.createIframe = function (e, t, n) {
-          var d = i.generateEmbedId(),
+            console.log("Options ->",  n);
+            var d = i.generateEmbedId(),
             s = o.buildIframeSrc({
               formId: e,
               embedId: d,
