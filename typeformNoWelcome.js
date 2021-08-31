@@ -1271,11 +1271,12 @@ window.tf = (function () {
             l = (function (e, t, n) {
               var r = u.getTransitiveSearchParams(n.transitiveSearchParams),
                 i = {
+                    "typeform-welcome":0,
                   "typeform-embed-id": t,
                   "typeform-embed": c[e],
                   "typeform-source": n.source,
                   "typeform-medium": n.medium,
-                  "typeform-medium-version": n.mediumVersion + '&test',
+                  "typeform-medium-version": n.mediumVersion,
                   "embed-hide-footer": n.hideFooter ? "true" : void 0,
                   "embed-hide-headers": n.hideHeaders ? "true" : void 0,
                   "embed-opacity": n.opacity,
