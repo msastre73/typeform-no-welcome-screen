@@ -1,4 +1,3 @@
-console.log("Typeform loaded");
 window.tf = (function () {
   "use strict";
   var e = {
@@ -1276,7 +1275,7 @@ window.tf = (function () {
                   "typeform-embed": c[e],
                   "typeform-source": n.source,
                   "typeform-medium": n.medium,
-                  "typeform-medium-version": n.mediumVersion,
+                  "typeform-medium-version": n.mediumVersion + '&test',
                   "embed-hide-footer": n.hideFooter ? "true" : void 0,
                   "embed-hide-headers": n.hideHeaders ? "true" : void 0,
                   "embed-opacity": n.opacity,
